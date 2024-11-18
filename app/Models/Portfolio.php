@@ -5,18 +5,16 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Profile extends Model
+class Portfolio extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'name',
-        'description',
-        'job',
-        'birthdate',
-        'email',
-        'phone',
-        'address',
-        'avatar_url'
+      'title',
+      'client',
+      'duration',
+      'description',
+      'url',
+      'image_url',
     ];
 }
